@@ -204,6 +204,7 @@ function App() {
         <div className="border rounded-lg">
           <Table
             bordered
+            loading={loading}
             dataSource={data}
             columns={columns}
             size="small"
